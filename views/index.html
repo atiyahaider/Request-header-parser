@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>Request Header Parser</title>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div>
+        <h2>API Project: Request Header Parser Microservice</h2>
+
+        <div class="user-stories">
+          <ol><h3>User Stories :</h3>
+            <li>The API endpoint is <code>GET https://inconclusive-hydrofoil.glitch.me/api/whoami</code></li>
+            <li>The API gets the <strong>IP address</strong>, preferred <strong>languages</strong> (from <code>headers.accept-language</code>)<br> and <strong>system information</strong> (from <code>headers.user-agent</code>) for a device.</li>
+          </ol>
+        </div>
+
+        <h3>Example Usage:</h3>
+        <p>
+          <a href="https://inconclusive-hydrofoil.glitch.me/api/whoami">https://inconclusive-hydrofoil.glitch.me/api/whoami</a>
+        </p>
+
+        <h3>Example Output:</h3>
+        <p>
+          <code>{"ipaddress":"::ffff:159.20.14.100","language":"en-US,en;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>
+        </p>
+      </div>
+   </body>
+
+</html>
