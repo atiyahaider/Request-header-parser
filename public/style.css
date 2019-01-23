@@ -1,4 +1,7 @@
 /****** Main Styling ******/
+* {
+    box-sizing: border-box;
+  }
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -12,7 +15,8 @@ body {
 h2{
   background-color: #94b8b8;
   margin-top: 50px;
-  padding: 8px;}
+  padding: 8px;
+}
 
 h3 {
   margin-top: 30px;
@@ -56,4 +60,16 @@ code {
 }
 .right {
   float: right;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+  h2{
+    margin-top: 0px;
+  }
+  .user-stories {
+    width: 100%;
+  }
 }
